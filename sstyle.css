@@ -1,0 +1,30 @@
+#lighterFontFooter{
+    color: aliceblue;
+    padding: 15px 0 0 0;
+}
+
+#darkerFont{
+    color: rgb(0, 0, 0);
+    padding: 15px 0 0 0;
+}
+#darkerFontFooter{
+    color: rgb(0, 0, 0);
+    padding: 15px 0 0 0;
+}
+#darkTheme{
+    color: rgb(60, 1, 1);
+    margin: auto;
+    font-size: larger;
+}
+
+#imageHolder{
+    background-color: aliceblue;
+    margin: auto;
+    padding: 8px;
+}
+
+#headerExample{
+    color: aliceblue;
+    padding: 15px 0 0 0;
+    border-bottom: burlywood;
+}

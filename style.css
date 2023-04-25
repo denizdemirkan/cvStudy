@@ -1,0 +1,122 @@
+* {
+	padding: 3;
+	margin: 3;
+	box-sizing: border-box;
+}
+html {/*yazı buyuklugunu ayarlıyoruz */
+	font-size: 20px;
+}
+
+
+/* genel stiller */
+body {
+    font-family:  monospace,'Courier New', Courier,; /*yazı tipini,rengini ayarlıyoruz ayarlıyoruz*/
+	background-color: rgb(244, 241, 224);
+	color: rgb(0, 0, 0);
+  }
+img {
+	width: 15%;
+}
+  /* linkler */
+  a {
+    color: rgb(30, 181, 101);
+    text-decoration: none;
+  }  
+  a:hover {
+    color:rgb(117, 184, 199);
+    text-decoration: underline;
+  }
+ 
+  /* başlık stilleri */
+  h1 {
+    font-size: 2.2em;
+    color: rgb(81, 58, 3);
+    text-align: center;
+    margin-bottom: 1em;
+    
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #023109;
+    margin-top: 1.5em;
+    font-size: 1.5rem;
+	font-weight: 400;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    color:#023109;
+    margin-top: 1.2em;
+  }
+  .downloadBtn {
+	display: block;
+	text-decoration: underline;
+	font-size: 1.6rem;
+	margin-top: 1rem;
+}
+.downloadBtn:hover {
+	color: var(--primary-color);
+}
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0.5em 1em;
+    color: #ffffff;
+  }
+  
+  nav a:hover {
+    background-color: #282828;
+  }
+  
+  /* footer stilleri */
+  footer {
+    text-align: center;
+    padding: 0,5em;
+    background-color: rgb(72, 72, 72);
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .skills-section {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+  }
+  .skills-section h2 {
+    margin-top: 0;
+  }
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  .skills-list li {
+    margin-bottom: 5px;
+  }
+  
